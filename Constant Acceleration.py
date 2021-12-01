@@ -2,9 +2,9 @@ import math
 
 axis = int(input("Which axis do you need? 0 for x, 1 for y, 2 for z: "))
 if axis == 0:
-    print("0 = x position, 1 = final x velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
+    print("0 = x position, 1 = final velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
     variables_wanted_x = int(input("What variable are you looking for? "))
-    print("What are your current variables? Enter 0 for unknown value! \n Also make sure the units are correct! \n")
+    print("What are your current variables? Enter 0 for unknown value! \nAlso make sure the units are correct! \n")
     x1 = float(input("What is the initial x position? "))
     x2 = float(input("What is the final x position? "))
     v1 = float(input("What is the initial velocity? "))
@@ -78,9 +78,9 @@ if axis == 0:
             print("Something wrong here mate. Try again! ")
 
 elif axis == 1:
-    print("0 = y position, 1 = final y velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
+    print("0 = y position, 1 = final velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
     variables_wanted_y = int(input("What variable are you looking for? "))
-    print("What are your current variables? Enter 0 for unknown value! \n")
+    print("What are your current variables? Enter 0 for unknown value! \nAlso make sure the units are correct! \n")
     y1 = float(input("What is the initial y position? "))
     y2 = float(input("What is the final y position? "))
     v1 = float(input("What is the initial velocity? "))
@@ -154,9 +154,9 @@ elif axis == 1:
             print("Something wrong here mate. Try again! ")
 
 elif axis == 2:
-    print("0 = y position, 1 = final y velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
+    print("0 = z position, 1 = final velocity, 2 = initial velocity, 3 = acceleration, 4 = time")
     variables_wanted_z = int(input("What variable are you looking for? "))
-    print("What are your current variables? Enter 0 for unknown value! \n")
+    print("What are your current variables? Enter 0 for unknown value! \nAlso make sure the units are correct! \n")
     z1 = float(input("What is the initial z position? "))
     z2 = float(input("What is the final z position? "))
     v1 = float(input("What is the initial velocity? "))
